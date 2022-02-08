@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<style>
+
+
+.search-bar {
+  width: 30%;
+  position: relative;
+  margin-left: 450px;
+}
+
+.search-bar input {
+  width: calc(100% - 60px);
+  height: 30px;
+  
+  border:1px solid black;
+  border-radius: 10px;
+  
+  padding: 0 30px;
+}
+
+.search-ico {
+  position: absolute;
+  left: 10px;
+  top:8px;
+}
+
+.microphone-ico {
+  position: absolute;
+  right: 20px;
+  top: 8px;
+}
+    p {
+        margin-top: 100px;
+        font-family: 'Times New Roman', Times, serif;
+        
+        text-align: center;
+    }
+
+    .blue {
+        font-size: 70px;
+        color: #4285F4;
+    }
+
+    .red {
+        font-size: 70px;
+        color: #DB4437;
+    }
+
+    #yellow {
+        font-size: 70px;
+        color: #F4B400;
+    }
+
+    #green {
+        font-size: 70px;
+        color: #0F9D58;
+    }
+</style>
+
+<body>
+    <p>
+        <strong class="blue">G</strong>
+        <strong class="red">o</strong>
+        <strong id="yellow">o</strong>
+        <strong class="blue">g</strong>
+        <strong id="green">l</strong>
+        <strong class="red">e</strong>
+    </p>
+   
+    <!--Search Bar-->
+    <div class="search-bar">
+      <input type="text" name="search" placeholder="Search" />
+      <i class="fa fa-search search-ico"></i>
+      <i class="fa fa-microphone microphone-ico"></i>
+    </div>
+</body>
+
+</html>
